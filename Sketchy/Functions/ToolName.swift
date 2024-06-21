@@ -1,6 +1,6 @@
 import SwiftUI
 
-enum ToolName: String, CaseIterable, Identifiable {
+enum DrawTools: String, CaseIterable, Identifiable {
     case pen
     case brush
     case pencil

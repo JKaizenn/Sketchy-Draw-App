@@ -11,6 +11,22 @@
 		BB1474E22C2513AE00CB855D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474E12C2513AE00CB855D /* ContentView.swift */; };
 		BB1474E42C2513AF00CB855D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1474E32C2513AF00CB855D /* Assets.xcassets */; };
 		BB1474E72C2513AF00CB855D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB1474E62C2513AF00CB855D /* Preview Assets.xcassets */; };
+		BB1474F12C25141600CB855D /* CanvasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474F02C25141600CB855D /* CanvasView.swift */; };
+		BB1474F32C25145E00CB855D /* SketchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474F22C25145E00CB855D /* SketchScreen.swift */; };
+		BB1474F52C25147000CB855D /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474F42C25147000CB855D /* SettingsScreen.swift */; };
+		BB1474F72C252BCE00CB855D /* ColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474F62C252BCE00CB855D /* ColorPicker.swift */; };
+		BB1474F92C252BDB00CB855D /* ColorWheelButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474F82C252BDB00CB855D /* ColorWheelButton.swift */; };
+		BB1474FB2C252BE700CB855D /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474FA2C252BE700CB855D /* AnimatedButton.swift */; };
+		BB1474FD2C252BF400CB855D /* Line.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474FC2C252BF400CB855D /* Line.swift */; };
+		BB1474FF2C252C0900CB855D /* ToolBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1474FE2C252C0900CB855D /* ToolBarView.swift */; };
+		BB1475012C252C2400CB855D /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1475002C252C2400CB855D /* HomeScreen.swift */; };
+		BB1475032C252C3400CB855D /* ColorWheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1475022C252C3400CB855D /* ColorWheelView.swift */; };
+		BB1475052C252D1300CB855D /* FilePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1475042C252D1300CB855D /* FilePickerView.swift */; };
+		BB1475072C252D8100CB855D /* AnimatedBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1475062C252D8100CB855D /* AnimatedBackground.swift */; };
+		BB1475092C2536C100CB855D /* ThicknessPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1475082C2536C100CB855D /* ThicknessPicker.swift */; };
+		BB14750B2C253C7200CB855D /* ToolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14750A2C253C7200CB855D /* ToolPicker.swift */; };
+		BB14750D2C253DBD00CB855D /* DrawingTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14750C2C253DBD00CB855D /* DrawingTools.swift */; };
+		BB14750F2C25405300CB855D /* ToolName.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB14750E2C25405300CB855D /* ToolName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,22 @@
 		BB1474E12C2513AE00CB855D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BB1474E32C2513AF00CB855D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BB1474E62C2513AF00CB855D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB1474F02C25141600CB855D /* CanvasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanvasView.swift; sourceTree = "<group>"; };
+		BB1474F22C25145E00CB855D /* SketchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SketchScreen.swift; sourceTree = "<group>"; };
+		BB1474F42C25147000CB855D /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		BB1474F62C252BCE00CB855D /* ColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPicker.swift; sourceTree = "<group>"; };
+		BB1474F82C252BDB00CB855D /* ColorWheelButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelButton.swift; sourceTree = "<group>"; };
+		BB1474FA2C252BE700CB855D /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		BB1474FC2C252BF400CB855D /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
+		BB1474FE2C252C0900CB855D /* ToolBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolBarView.swift; sourceTree = "<group>"; };
+		BB1475002C252C2400CB855D /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		BB1475022C252C3400CB855D /* ColorWheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorWheelView.swift; sourceTree = "<group>"; };
+		BB1475042C252D1300CB855D /* FilePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilePickerView.swift; sourceTree = "<group>"; };
+		BB1475062C252D8100CB855D /* AnimatedBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedBackground.swift; sourceTree = "<group>"; };
+		BB1475082C2536C100CB855D /* ThicknessPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThicknessPicker.swift; sourceTree = "<group>"; };
+		BB14750A2C253C7200CB855D /* ToolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolPicker.swift; sourceTree = "<group>"; };
+		BB14750C2C253DBD00CB855D /* DrawingTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingTools.swift; sourceTree = "<group>"; };
+		BB14750E2C25405300CB855D /* ToolName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +67,9 @@
 		BB1474D32C2513AE00CB855D = {
 			isa = PBXGroup;
 			children = (
+				BB1474EF2C2513D700CB855D /* Functions */,
+				BB1474EE2C2513C600CB855D /* Screens */,
+				BB1474ED2C2513BF00CB855D /* Views */,
 				BB1474DE2C2513AE00CB855D /* Sketchy */,
 				BB1474DD2C2513AE00CB855D /* Products */,
 			);
@@ -52,7 +87,6 @@
 			isa = PBXGroup;
 			children = (
 				BB1474DF2C2513AE00CB855D /* SketchyApp.swift */,
-				BB1474E12C2513AE00CB855D /* ContentView.swift */,
 				BB1474E32C2513AF00CB855D /* Assets.xcassets */,
 				BB1474E52C2513AF00CB855D /* Preview Content */,
 			);
@@ -65,6 +99,44 @@
 				BB1474E62C2513AF00CB855D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB1474ED2C2513BF00CB855D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB1474E12C2513AE00CB855D /* ContentView.swift */,
+				BB1474F02C25141600CB855D /* CanvasView.swift */,
+				BB1474FE2C252C0900CB855D /* ToolBarView.swift */,
+				BB1475022C252C3400CB855D /* ColorWheelView.swift */,
+				BB1475042C252D1300CB855D /* FilePickerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BB1474EE2C2513C600CB855D /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				BB1474F22C25145E00CB855D /* SketchScreen.swift */,
+				BB1474F42C25147000CB855D /* SettingsScreen.swift */,
+				BB1475002C252C2400CB855D /* HomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		BB1474EF2C2513D700CB855D /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				BB1474F62C252BCE00CB855D /* ColorPicker.swift */,
+				BB1474F82C252BDB00CB855D /* ColorWheelButton.swift */,
+				BB1474FA2C252BE700CB855D /* AnimatedButton.swift */,
+				BB1474FC2C252BF400CB855D /* Line.swift */,
+				BB1475062C252D8100CB855D /* AnimatedBackground.swift */,
+				BB1475082C2536C100CB855D /* ThicknessPicker.swift */,
+				BB14750A2C253C7200CB855D /* ToolPicker.swift */,
+				BB14750C2C253DBD00CB855D /* DrawingTools.swift */,
+				BB14750E2C25405300CB855D /* ToolName.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +211,22 @@
 			files = (
 				BB1474E22C2513AE00CB855D /* ContentView.swift in Sources */,
 				BB1474E02C2513AE00CB855D /* SketchyApp.swift in Sources */,
+				BB1474FF2C252C0900CB855D /* ToolBarView.swift in Sources */,
+				BB14750D2C253DBD00CB855D /* DrawingTools.swift in Sources */,
+				BB1474F12C25141600CB855D /* CanvasView.swift in Sources */,
+				BB1475012C252C2400CB855D /* HomeScreen.swift in Sources */,
+				BB1474F92C252BDB00CB855D /* ColorWheelButton.swift in Sources */,
+				BB1475092C2536C100CB855D /* ThicknessPicker.swift in Sources */,
+				BB14750B2C253C7200CB855D /* ToolPicker.swift in Sources */,
+				BB1475032C252C3400CB855D /* ColorWheelView.swift in Sources */,
+				BB1474F52C25147000CB855D /* SettingsScreen.swift in Sources */,
+				BB1475072C252D8100CB855D /* AnimatedBackground.swift in Sources */,
+				BB1474F32C25145E00CB855D /* SketchScreen.swift in Sources */,
+				BB1474FD2C252BF400CB855D /* Line.swift in Sources */,
+				BB1475052C252D1300CB855D /* FilePickerView.swift in Sources */,
+				BB14750F2C25405300CB855D /* ToolName.swift in Sources */,
+				BB1474FB2C252BE700CB855D /* AnimatedButton.swift in Sources */,
+				BB1474F72C252BCE00CB855D /* ColorPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

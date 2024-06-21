@@ -1,24 +1,58 @@
-//
-//  ContentView.swift
-//  Sketchy
-//
-//  Created by Jessen Forbush on 6/20/24.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showHomeScreen = true
+    @State private var showSketchScreen = false
+    @State private var showSettingsScreen = false
+    @State private var isDarkMode = false
+
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        ZStack {
+            if showHomeScreen {
+                HomeScreen(
+                    newFileAction: {
+                        self.showHomeScreen = false
+                        self.showSketchScreen = true
+                    },
+                    loadExistingAction: { url in
+                        // Implement load existing logic here
+                        print("Loaded file from: \(url?.absoluteString ?? "Invalid URL")")
+                    },
+                    settingsAction: {
+                        self.showHomeScreen = false
+                        self.showSettingsScreen = true
+                    },
+                    isDarkMode: $isDarkMode
+                )
+            } else if showSketchScreen {
+                SketchScreen(
+                    backAction: {
+                        self.showSketchScreen = false
+                        self.showHomeScreen = true
+                    },
+                    isDarkMode: $isDarkMode
+                )
+            } else if showSettingsScreen {
+                SettingsScreen(
+                    backAction: {
+                        self.showSettingsScreen = false
+                        self.showHomeScreen = true
+                    },
+                    isDarkMode: $isDarkMode
+                )
+            }
         }
-        .padding()
+        .ignoresSafeArea(edges: .all)
+        .background(isDarkMode ? Color.black : Color.white)
     }
 }
 
-#Preview {
-    ContentView()
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            .previewDevice("iPhone 13")
+        
+        ContentView()
+            .previewDevice("iPad Pro (11-inch) (3rd generation)")
+    }
 }
