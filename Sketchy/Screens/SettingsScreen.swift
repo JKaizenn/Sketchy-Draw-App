@@ -9,15 +9,13 @@ struct SettingsScreen: View {
             Toggle(isOn: $isDarkMode) {
                 Text("Dark Mode")
                     .font(.headline)
-                    .padding(.top, 20) // Add padding to the dark mode toggle
+                    .foregroundColor(isDarkMode ? .white : .black)
             }
-            .padding()
+            .padding(.top, 20)
 
             Spacer()
 
-            Button(action: {
-                backAction()
-            }) {
+            Button(action: backAction) {
                 Text("Back")
                     .padding()
                     .background(Color.blue)
@@ -25,7 +23,8 @@ struct SettingsScreen: View {
                     .cornerRadius(10)
                     .shadow(radius: 5)
             }
-            .padding(.bottom, 20)
+
+            Spacer()
         }
         .padding()
         .background(isDarkMode ? Color.black : Color.white)

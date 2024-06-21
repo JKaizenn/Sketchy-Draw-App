@@ -1,26 +1,29 @@
 import SwiftUI
 
-struct LineThicknessPicker: View {
+struct ThicknessPicker: View {
     @Binding var selectedThickness: CGFloat
+    @Binding var isDarkMode: Bool
 
     var body: some View {
         HStack {
-            ForEach(1...6, id: \.self) { index in
+            ForEach([1, 2, 3, 4, 5, 6], id: \.self) { thickness in
                 Button(action: {
-                    self.selectedThickness = CGFloat(index)
+                    selectedThickness = CGFloat(thickness)
                 }) {
                     Circle()
-                        .fill(self.selectedThickness == CGFloat(index) ? Color.blue : Color.gray)
-                        .frame(width: CGFloat(index * 5), height: CGFloat(index * 5))
+                        .stroke(lineWidth: selectedThickness == CGFloat(thickness) ? 3 : 1)
+                        .background(Circle().fill(isDarkMode ? Color.white : Color.clear))
+                        .frame(width: 30, height: 30)
+                        .padding(5)
                 }
-                .padding(2)
             }
         }
+        .padding()
     }
 }
 
-struct LineThicknessPicker_Previews: PreviewProvider {
+struct ThicknessPicker_Previews: PreviewProvider {
     static var previews: some View {
-        LineThicknessPicker(selectedThickness: .constant(2))
+        ThicknessPicker(selectedThickness: .constant(2), isDarkMode: .constant(false))
     }
 }

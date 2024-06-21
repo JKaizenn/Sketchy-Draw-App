@@ -1,17 +1,11 @@
 import SwiftUI
 
-enum DrawTools: String, CaseIterable, Identifiable {
-    case pen, brush, pencil, sprayPaint
-
-    var id: String { self.rawValue }
-}
-
 struct ToolPicker: View {
-    @Binding var selectedTool: ToolName
+    @Binding var selectedTool: SketchTool
 
     var body: some View {
         Menu {
-            ForEach(ToolName.allCases) { tool in
+            ForEach(SketchTool.allCases) { tool in
                 Button(action: {
                     selectedTool = tool
                 }) {
@@ -21,17 +15,14 @@ struct ToolPicker: View {
         } label: {
             Text("Tools")
                 .padding()
-                .background(Color.gray.opacity(0.2))
-                .foregroundColor(.black)
+                .background(Color.blue)
+                .foregroundColor(.white)
                 .cornerRadius(10)
-                .overlay(
-                    RoundedRectangle(cornerRadius: 10)
-                        .stroke(Color.gray, lineWidth: 1)
-                )
+                .shadow(radius: 5)
         }
     }
 
-    private func toolIcon(for tool: DrawTools) -> String {
+    private func toolIcon(for tool: SketchTool) -> String {
         switch tool {
         case .pen:
             return "pencil.tip"

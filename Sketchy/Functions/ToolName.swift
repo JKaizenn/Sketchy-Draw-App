@@ -1,10 +1,7 @@
 import SwiftUI
 
-enum DrawTools: String, CaseIterable, Identifiable {
-    case pen
-    case brush
-    case pencil
-    case sprayPaint
+enum SketchTool: String, CaseIterable, Identifiable {
+    case pen, brush, pencil, sprayPaint
 
     var id: String { self.rawValue }
 }
