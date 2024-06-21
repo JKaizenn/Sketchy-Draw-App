@@ -6,7 +6,7 @@ As a software engineer continually seeking to broaden my skills and understandin
 
 ## Software Demo Video
 
-[https://youtu.be/X_Kv_9cYm-0]
+[https://youtu.be/X_Kv_9cYm-0](https://youtu.be/4nn0dRtm-o0)]
 
 ## Development Environment
 
