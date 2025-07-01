@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -53,6 +53,14 @@
 		BB14750E2C25405300CB855D /* ToolName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToolName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BB4B822E2E144246005FC63F /* Models */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Models; sourceTree = "<group>"; };
+		BB4B822F2E144251005FC63F /* ViewModels */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = ViewModels; sourceTree = "<group>"; };
+		BB4B82302E14425A005FC63F /* Services */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Services; sourceTree = "<group>"; };
+		BB4B82312E14426B005FC63F /* Utilities */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utilities; sourceTree = "<group>"; };
+		BB4B82322E144279005FC63F /* Resources */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Resources; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		BB1474D92C2513AE00CB855D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -67,10 +75,15 @@
 		BB1474D32C2513AE00CB855D = {
 			isa = PBXGroup;
 			children = (
+				BB4B82322E144279005FC63F /* Resources */,
+				BB4B82312E14426B005FC63F /* Utilities */,
+				BB4B82302E14425A005FC63F /* Services */,
+				BB4B822F2E144251005FC63F /* ViewModels */,
+				BB4B822E2E144246005FC63F /* Models */,
 				BB1474EF2C2513D700CB855D /* Functions */,
 				BB1474EE2C2513C600CB855D /* Screens */,
 				BB1474ED2C2513BF00CB855D /* Views */,
-				BB1474DE2C2513AE00CB855D /* Sketchy */,
+				BB1474DE2C2513AE00CB855D /* App */,
 				BB1474DD2C2513AE00CB855D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,14 +96,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		BB1474DE2C2513AE00CB855D /* Sketchy */ = {
+		BB1474DE2C2513AE00CB855D /* App */ = {
 			isa = PBXGroup;
 			children = (
 				BB1474DF2C2513AE00CB855D /* SketchyApp.swift */,
 				BB1474E32C2513AF00CB855D /* Assets.xcassets */,
 				BB1474E52C2513AF00CB855D /* Preview Content */,
 			);
-			path = Sketchy;
+			path = App;
 			sourceTree = "<group>";
 		};
 		BB1474E52C2513AF00CB855D /* Preview Content */ = {
